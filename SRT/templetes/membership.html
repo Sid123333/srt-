@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership - Your Gym</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Dac Monalds</h1>
+    <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>            
+            <a href="contact.html">Contact</a>
+            <a href="membership.html">Membership</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="policy.html">Policy</a>
+        
+    </nav>
+</header>
+
+<main>
+    <section id="membership">
+        <h2>Planks over pizza</h2>
+        <p>Memberships.</p>
+        
+        <form id="membership-form">
+            <label for="member-name">Name:</label>
+            <input type="text" id="member-name" name="member-name" required>
+
+            <label for="member-email">Email:</label>
+            <input type="email" id="member-email" name="member-email" req   uired>
+
+            <label for="membership-type">Membership Type:</label>
+            <select id="membership-type" name="membership-type">
+                <option value="monthly">Monthly - $30/month</option>
+                <option value="semi-yearly">Semi-Yearly - $160/6 months</option>
+                <option value="yearly">Yearly - $300/year</option>
+            </select>
+
+            <button type="submit">Join</button>
+        </form>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>&copy; 2024 Dac Monalds. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

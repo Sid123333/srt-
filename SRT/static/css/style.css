@@ -1,0 +1,164 @@
+* {
+    margin: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-sizing: border-box;
+}
+body {
+    font-family:  sans-serif;
+    color: #333;
+    font-size: 20px ;
+}
+header {
+    background-color:white;
+    color: blue;
+    text-align: center;
+    padding: 1px;
+    position: relative;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav {
+    list-style-type: none;
+    font-size: medium;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav a:hover {
+    color: green;
+    border-radius: 5px;
+}
+
+main {
+    background-color: rgb(164, 131, 131);
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+    font-size: small;
+
+    
+}
+
+main h2 {
+    background-color: aliceblue;
+   font-size: larger;
+   font-family: 'Times New Roman', Times, serifS;
+}
+
+section {
+    background-color: aliceblue;
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.equipment-item, .trainer-item {
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.equipment-item img, .trainer-item img {
+    margin: 0 0 10px 0;
+    height: 100px;
+    width: 100px;
+    
+ 
+}
+
+.equipment-item p, .trainer-item p {
+    margin-left: 0;
+    color: black;
+    text-decoration: solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+   
+
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"]
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    height: 50px;
+}
+
+form select {
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+}
+
+form button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: green;
+}
+
+
+.site-footer {
+    background-color: grey;
+    color: Blue;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 2px;
+    width: 100%;
+}
+
+.site-footer:hover {
+    color: red
+}
